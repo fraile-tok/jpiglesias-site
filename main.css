@@ -1,5 +1,32 @@
+:root {
+    --warm-beige: #f5f2dc;
+    --text-dark: #010415;
+    --text-accent: #8d022e;
+}
+
 body {
-    background-color: beige;
-    color: #010415;
-    font-family: 'Cormorant Garamond', serif;
+    background-color: var(--text-dark);
+    padding: 20px;
+}
+
+#main {
+    background-color: var(--warm-beige);
+    color: var(--text-dark);
+    font-family: 'Cormorant Garamond', serif;;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#main h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+#main #tagline {
+    text-align: center;
+}
+
+.accent {
+    color: var(--text-accent);
 }
